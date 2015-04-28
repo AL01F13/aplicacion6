@@ -9,6 +9,15 @@ $('#btnbeep').on('tap',function(){
 	navigator.beep(1);
 });
 
+$('#izquierda').on('swipeleft',
+function (){
+	alert("Barrio a la izquierda");
+});
+
+$('#derecha').on('swiperight',
+function (){
+	alert("Barrio a la derecha");
+});
 }); 
 });
 
