@@ -6,7 +6,7 @@ $('#btnvibrar').on('tap',function(){
 
 }); //tap a btnvibrar
 $('#btnbeep').on('tap',function(){
-	navigator.beep(1);
+	navigator.notification.beep(2);
 });
 
 $('#izquierda').on('swipeleft',
